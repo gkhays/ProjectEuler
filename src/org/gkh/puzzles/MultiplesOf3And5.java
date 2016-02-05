@@ -96,14 +96,14 @@ public class MultiplesOf3And5 {
 		
 		// (3) Using a delegate, sum the elements of the Integer stream.
 		int sum = intStream.mapToInt(b -> b.intValue()).sum();
-		System.out.println("Java 8 style: " + sum);
 		return sum;
 	}
 	
 	public static void main(String[] args) {		
 		System.out.printf(
 				"The sum of all multiples of 3 or 5 below %d is %d\n",
-				ITERATIONS, sumOfMultiples(ITERATIONS));		
+				ITERATIONS, sumOfMultiples(ITERATIONS));
+		System.out.println("Java 8 style: " + sumOfMultiples8(ITERATIONS));		
 	}
 
 	// Unit tests.
