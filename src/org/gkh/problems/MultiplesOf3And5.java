@@ -7,14 +7,17 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 /**
+ * Problem 1 - Multiples of 3 and 5.
+ * <p>
  * If we list all the natural numbers below 10 that are multiples of 3 or 5, we
  * get 3, 5, 6 and 9. The sum of these multiples is 23.
- * 
+ * <p>
  * Find the sum of all the multiples of 3 or 5 below 1000.
- * 
+ * <p>
  * I was looking at the solutions forum and there are some optimizations.
  * 
- * @see <a href="https://projecteuler.net/thread=1></a>
+ * @see <a href="https://projecteuler.net/problem=1">Multiples of 3 and 5</a>
+ * @see <a href="https://projecteuler.net/thread=1">Problem 1 Forum</a>
  * 
  * @author Garve Hays
  */
