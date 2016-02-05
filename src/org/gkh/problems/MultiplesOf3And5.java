@@ -1,4 +1,4 @@
-package org.gkh.puzzles;
+package org.gkh.problems;
 
 import java.util.ArrayList;
 import java.util.Arrays;
