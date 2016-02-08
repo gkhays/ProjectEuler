@@ -29,8 +29,15 @@ import java.util.List;
  * Further research:
  * 
  * How can I find the Square Root of a Java BigInteger?
+ * http://stackoverflow.com/questions/4407839/how-can-i-find-the-square-root-of-
+ * a-java-biginteger
  * 
- * http://stackoverflow.com/questions/4407839/how-can-i-find-the-square-root-of-a-java-biginteger
+ * @see <a
+ *      href="http://stackoverflow.com/questions/23287/largest-prime-factor-of-a-number">Largest
+ *      prime factor of a number</a>
+ * 
+ * Quadratic Sieve
+ * https://en.wikipedia.org/wiki/Quadratic_sieve
  * 
  * @author ghays
  */
@@ -47,6 +54,11 @@ public class LargestPrimeFactor {
 		return primeList;
 	}
 	
+	/**
+	 * @see <a href="https://en.wikipedia.org/wiki/Fermat%27s_factorization_method">Fermat's Factorization Method</a>
+	 * 
+	 * @param n2
+	 */
 	static void getPrimesByFermatsFactorization(long n2) {
 		double maxLoop = Math.ceil(Math.sqrt(n2));
 
