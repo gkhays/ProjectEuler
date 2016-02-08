@@ -55,7 +55,9 @@ public class LargestPrimeFactor {
 	}
 	
 	/**
-	 * @see <a href="https://en.wikipedia.org/wiki/Fermat%27s_factorization_method">Fermat's Factorization Method</a>
+	 * @see <a
+	 *      href="https://en.wikipedia.org/wiki/Fermat%27s_factorization_method"
+	 *      >Fermat's Factorization Method</a>
 	 * 
 	 * @param n2
 	 */
